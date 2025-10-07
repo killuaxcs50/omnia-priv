@@ -21,7 +21,7 @@ A revolutionary, AI-driven, fully autonomous Linux privilege escalation and defe
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/omnia-priv.git
+git clone https://github.com/killuaxcs50/omnia-priv.git
 cd omnia-priv
 
 # Run setup
