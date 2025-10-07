@@ -1,0 +1,8 @@
+{
+    "genesis_block": {
+        "timestamp": "$(date -Iseconds)",
+        "nonce": 0,
+        "previous_hash": "0",
+        "transactions": []
+    }
+}

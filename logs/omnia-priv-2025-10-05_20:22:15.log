@@ -1,0 +1,31 @@
+[0;35m
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║    ██████╗ ███████╗ ██████╗ ██████╗ ███████╗████████╗   ║
+║    ██╔══██╗██╔════╝██╔═══██╗██╔══██╗██╔════╝╚══██╔══╝   ║
+║    ██████╔╝█████╗  ██║   ██║██████╔╝█████╗     ██║      ║
+║    ██╔══██╗██╔══╝  ██║   ██║██╔══██╗██╔══╝     ██║      ║
+║    ██║  ██║███████╗╚██████╔╝██║  ██║███████╗   ██║      ║
+║    ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝   ╚═╝      ║
+║                                                          ║
+║            Quantum-Inspired Security Platform           ║
+║                   AI-Powered Defense                    ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+[0;36m[+] OMNIA-PRIV v3.0 - Quantum-Inspired Security Platform[0m
+[0;36m[+] Logging to: logs/omnia-priv-2025-10-05_20:22:15.log[0m
+[1;33mUsage: ./omnia-priv.sh [options][0m
+Options:
+  --full-scan            Run complete quantum security scan
+  --quantum-detection    Quantum-inspired threat detection
+  --ai-simulation        Generative AI attack simulation
+  --zero-day-forecast    Predictive zero-day forecasting
+  --auto-response        Autonomous incident response
+  --blockchain-logs      Blockchain-secured logging
+  --neural-analysis      Neural network anomaly detection
+  --metaverse-intel      Metaverse threat intelligence
+  --install-deps         Install required dependencies
+  --setup-ai             Initialize AI models
+  --init-blockchain      Initialize blockchain ledger
+  --help                 Show this help menu
+[0;32m[+] OMNIA-PRIV execution completed.[0m

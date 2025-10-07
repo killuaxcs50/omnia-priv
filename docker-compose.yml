@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  omnia-priv:
+    build: .
+    container_name: omnia-priv
+    privileged: true
+    volumes:
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+      - ./blockchain:/app/blockchain
+      - ./ai:/app/ai
+    ports:
+      - "8080:8080"
+    environment:
+      - OMNIA_MODE=production
+    restart: unless-stopped
+
+  redis:
+    image: redis:alpine
+    container_name: omnia-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:13
+    container_name: omnia-postgres
+    environment:
+      POSTGRES_DB: omnia_priv
+      POSTGRES_USER: omnia
+      POSTGRES_PASSWORD: omnia123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
